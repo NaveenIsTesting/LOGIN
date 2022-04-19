@@ -1,0 +1,15 @@
+﻿{
+  "Id": "xFJ7xGjyWEyWrdQjJODJ8w",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/xFJ7xGjyWEyWrdQjJODJ8w",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/1s8855Z8uUCdKeyycslkdw",
+  "Name": "Loginscreen",
+  "Type": "Screen",
+  "Created": "2022-04-14T07:57:27.9342104Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T08:03:16.2631625Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

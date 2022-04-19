@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="mzBxEBN13Uq6KMVwLC3Ibw" DesignTimeRectangle="484, 544, 264, 42" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="343c818f-ffa1-49d5-be96-a80d9d8b2583" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0YfDN41TwEEafo5cE2k0oOA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c1acd7e884f77506ed992bf36a5dcc08.png" xmlns="">0_MrTLVJCQEe9_4Hn8estVQ</imageRef>
+</TargetAnchorable>

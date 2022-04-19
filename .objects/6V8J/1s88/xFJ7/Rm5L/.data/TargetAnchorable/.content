@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="twCAveGwG0aKiEDxmk0mTw" DesignTimeRectangle="425, 602, 40, 24" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' parentclass='terms-and-conditions-checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' parentclass='terms-and-conditions-checkbox' aaname='' /&gt;" Guid="541f5058-3bbe-4121-be74-4942fd20248b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="678, 607, 96, 14" ElementType="Text" FriendlyName="'Forgot password?'" FullSelectorArgument="&lt;webctrl aaname='Forgot password?' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Forgot password?' tag='A' type='' check:text='Forgot password?' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1OziusNDQA0-om-2bewLCLw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0MKSTrPESTkqZ9lCdkUHWqw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="815632f0d3cbd49f1ca6970ffdc85451.png" xmlns="">0_fG90p3wTEqA5XQNv7iEgg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "7F5nRFRpWEW9TJbVBRmcdg",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/7F5nRFRpWEW9TJbVBRmcdg",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/XCOngDYkk0GS-BZb9bSSaQ",
+  "Name": "DEAL",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T08:22:13.7108613Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T08:25:23.5412936Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

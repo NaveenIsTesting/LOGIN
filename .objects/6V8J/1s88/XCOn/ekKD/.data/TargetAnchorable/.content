@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Xirr3HJbgk-1ylb5_r45pA" DesignTimeRectangle="1020, 137, 24, 24" FriendlyName="'search'" FullSelectorArgument="&lt;webctrl tag='I' aaname='search' innertext='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' aaname='search' innertext='search' type='' check:text='search' /&gt;" Guid="f5cf0b7b-eabc-4b7e-b518-3c3eae2ac166" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">05jmNprS9u0iOZitfG6CLIg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2cce078ef60de2f47bec7e75a766f171.png" xmlns="">0g-PXNcWbakiFy5-70sSkRQ</imageRef>
+</TargetAnchorable>

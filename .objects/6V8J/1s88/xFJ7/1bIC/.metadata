@@ -1,0 +1,13 @@
+﻿{
+  "Id": "1bICn8Q0i0CGBzFwlNpiQQ",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/1bICn8Q0i0CGBzFwlNpiQQ",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/xFJ7xGjyWEyWrdQjJODJ8w",
+  "Name": "SIGN IN",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T08:03:16.5300902Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T08:03:16.5300902Z"
+}

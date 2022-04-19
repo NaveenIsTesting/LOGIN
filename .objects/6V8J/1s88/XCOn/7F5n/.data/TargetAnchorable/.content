@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="0TUmoREiXEinwC35PKWjlA" DesignTimeRectangle="724, 141, 34, 17" ElementType="Text" FriendlyName="'DEAL'" FullSelectorArgument="&lt;webctrl aaname='DEAL' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='DEAL' parentid='page-container' tag='DIV' type='' check:text='DEAL' /&gt;" Guid="18bec1b1-3aaa-4a6b-a9b5-76ca3c1dc8b6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lcVlNj4xMEK1d3I7R5iqhg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="28eb60f5009e1aa9b07a8ad88580e0c3.png" xmlns="">09S6Xpz_MBEiTqPkizV8JcA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="E4rhkg0JmEWgfnEzwaAWNA" DesignTimeRectangle="565, 649, 95, 22" ElementType="Text" FriendlyName="'SIGN IN'" FullSelectorArgument="&lt;webctrl aaname='SIGN IN' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SIGN IN' tag='SPAN' type='' check:text='SIGN IN' /&gt;" Guid="6d509969-d06b-451a-8759-507af5d11c30" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0CYB9-9yMnUa1hVm99Onu5w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="03339dcf55f1a671ea1b8d46074a99f5.png" xmlns="">0zaFC4YN6gUC4nfDAq1z_CA</imageRef>
+</TargetAnchorable>
