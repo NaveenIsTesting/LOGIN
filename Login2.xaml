@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Login2" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="628,1330" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Login2" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="935.2,1473.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -34,6 +34,7 @@
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -69,37 +70,43 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login2" sap:VirtualizedContainerService.HintSize="476,1265" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login2" sap:VirtualizedContainerService.HintSize="475.2,1408.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Boss" sap:VirtualizedContainerService.HintSize="434,1173" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c6c302f8-6f7f-49f1-b2bd-a0fc3c5c184b" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Boss" sap:VirtualizedContainerService.HintSize="433.6,1316" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c6c302f8-6f7f-49f1-b2bd-a0fc3c5c184b" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,957" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,1099.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/login" ContentHash="o-iDZMumEUqaZPMc8GX6wQ" DesignTimeRectangle="486, 474, 285, 42" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="25b57b6e-5ff5-4dd5-8aae-23bb78b7b947" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASEAAAAuCAYAAABnPK96AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJMSURBVHhe7djbjeIwGAZQaqOeFAONjFLIiIdtgiK4eHMljhNmBpjl34dzpE/CJDjhwZ+cbBJAICUEhFJCQCglBIRSQkAoJQSEUkJAKCUEhFJCQCglBIRSQkAoJQSEUkJAKCUEhFJCQCglBIRSQkAoJQSEWimhY6qrbdp/DsPc5z5tt/t0GIYAr1JCQKiXSuj4UTXj7ZAq1cfhQKef53a8qptvRoe0b+apx983x/60n3f17DfVRz5hMV9x/LBrx4fsnP5+2u/Xzu/vYTq23alWiPB8CZW7otm4n6MsiWmhDwWQLfyx0G7X7eYbi20ooMX5U/H1ZVOOs3uY3V9//ek/Lu8XeI/fK6Fce2y282m1C38sibIEhlJZ7Jbu3EfrWKeqLJ18N7O4v+n63bXKnU83353/A/wzLzyODbuTpihmO5jG/DEtz+sllD9eLXY+ZQkt5uvPn8+RRwnBu/3Ki+lpUWc7jcVOKPd4Cd2uMZ7zk53QVyVU7oSAECsl1C/StfcjX5dL9l7lTllNHi2hqUBuXiih70sSeJfVEupLpFj0Qymsv+htzEpheFQrS+F2/jMllJ/fj599HBt/nxetYoIY6yXU6kqlXehT8tJodQv/7vGxKMbkO6OyVL4roUZXYuNcbZnMi+SxEmqU/08BQYj7JQTwBkoICKWEgFBKCAilhIBQm+v1mkREoqKERCQ0SkhEQqOERCQ0SkhEQqOERCQ0m8vlkkREoqKERCQ0SkhEQrM5n89JRCQqSkhEQrM5nU5JROTdUUIi8h/klP4CZycAwKafHkIAAAAASUVORK5CYII=" InformativeScreenshot="9a81503eac210ef1bc6ebf689f2432e7.png" Reference="mOJq_cvjNkm-PtnMbjKZKw/Xsj086Dz4USUIVpfRgCUoA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="mzBxEBN13Uq6KMVwLC3Ibw" DesignTimeRectangle="484, 544, 264, 42" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="343c818f-ffa1-49d5-be96-a80d9d8b2583" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQwAAAAuCAYAAADdnycaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJjSURBVHhe7dg9jtNAGIBhuAmcZc9jiRtwhc0FoKdY+RhbrNJDQRsJ0XAC4/F47PFPwudsgbR6HimAM9YkFN+rcd51AEGCAYQJBhAmGECYYABhggGECQYQJhhAmGAAYYIBhAkGECYYQJhgAGGCAYQJBhAmGECYYABhggGE7QTj0rXNQ/fwsH01T5fxnrfh/Nj/vx7P4xXwL1eDcXoZLyfn7vTGoiEYcMyBYPQrT001YNuTSB2T4d5prenaqjP7a3m/zR5N268UKVqn/s9suc/8frmvLetlj0vbNdX9J8GAQ+4MxhiLatjy8I7D/3JaDnB9fWNt3j8pQVrdO67nz5vXltf5NLSIwRiL6f81fK5gQNSn518HgrEeuLVh/UowarfWhj3qoc+ngPKZ6REi/zsHYfld6hPKdn0IyuK0kvcTDIh5/+X763/0HIZuumf5eFHe3xvs/bU06FV0+mFOgz5HYIxJHadK+i7XgrEXh+WJBrjl8/n3sUeS2hSKxe8D+0Oc4xBbK0M/hSLtmz4j/V2GWzDgv7gzGNVJoLgyxFneMw/z2mptOFm0/Xtlr3yySD9gzt9pG4TlPtt1jyRwv68//nQfv/18TTDqe/L11R8965jcWpuu017lnvx91r97DAGo3lte7wVl9d7wPQQDIj70sUjRuPuRZBq44ZUGPg9kOSnMjxv5Ve93a20KRDXIe6eDJEei7FMHZS8YvSlG/avfr3XCgEN2ggGwTzCAMMEAwgQDCBMMIEwwgDDBAMIEAwgTDCBMMIAwwQDCBAMIEwwgTDCAMMEAwgQDCBMMIEwwgKCu+wugqVL5VFHpIAAAAABJRU5ErkJggg==" InformativeScreenshot="c1acd7e884f77506ed992bf36a5dcc08.png" Reference="mOJq_cvjNkm-PtnMbjKZKw/5N9Gm3lXBk6ufapHImWmRA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Terms&amp;Conditions'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Terms&amp;Conditions'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="twCAveGwG0aKiEDxmk0mTw" DesignTimeRectangle="425, 602, 40, 24" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' parentclass='terms-and-conditions-checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' parentclass='terms-and-conditions-checkbox' aaname='' /&gt;" Guid="541f5058-3bbe-4121-be74-4942fd20248b" ImageBase64="" InformativeScreenshot="815632f0d3cbd49f1ca6970ffdc85451.png" Reference="mOJq_cvjNkm-PtnMbjKZKw/Rm5LglsoIEiHPiY-RH_19Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -110,7 +117,14 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'SIGN IN'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"info"</mca:CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ClickType="Single" DisplayName="Click 'SIGN IN'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="E4rhkg0JmEWgfnEzwaAWNA" DesignTimeRectangle="565, 649, 95, 22" ElementType="Text" FriendlyName="'SIGN IN'" FullSelectorArgument="&lt;webctrl aaname='SIGN IN' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SIGN IN' tag='SPAN' type='' check:text='SIGN IN' /&gt;" Guid="6d509969-d06b-451a-8759-507af5d11c30" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGMAAAAaCAYAAACjFuKcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM3SURBVGhD7ZjfUqMwFMb3/Z+CK2a0dhixU6stU13ZbpcVI9sRuxUZWYbn+PaE8CeUWOvARZzh4httTjgh55ecnPAtyzIM0kMDDI00wNBIAwyNNMDQSAMMjdQ7jDQKsF5MMDINGIYB88zG/I5hlzT7hXfCPvXjRnuWJdgxF/PzEUyyG4aJ0fkcLtshafSrfRiXPqI9m2xvjyHp1cc0H8dFWLaFrvBrTOFHUt99O40b79s6qFcYKb2klU/CwIllw76wYZ2K34Y5a0xMHagIgWOJ/jkE7sPCSeHTvGoGvYJBfWcP7YB3h8HHZO2A6w9ji9W4CIwfSe0JBaUI8CKoVrcqUMmjI3aD5YDJKzIJ4Vqi/5wlVXsNg2Q6CN6kZyR7Fxh8Ps5jPWbDri2MalK0tV/3bQwO7RL7Yo1t0dYOVARvItqcIK2fLZT+WYoASCu19GGapvh7s0EqPdMZBvnNF4e5xOaf9MyX2hleO7/vqxWomGGWB2UGFrf7q1T5+OXjNh/bgvtcg+wM43IN//s4/99ytzVo/WE0zwzjdALnJ8M2aq9yrlagVEH5QLIPvnNEilsd2H0KHYRBwf63wTIvRiystgp7+UwP6hUGV7pjcC9PxMsWMs+X8P828+5xMOiskPwI1famjwTBQqSriSfOrF5g0O+kPMsmniggvgqMSm87bPwVlagiQHkKCQ+kECUMqq5+rLDionJZ+HkPBvdBqS5fxaIk7QtGlsVgV2Ie03sC/eVgSIp+T8XLXxQri9QKVBLA4X1UBQBXGYBDMEjRvRjLpMqN9QaDFBX9eNVG96CWvQf1BiN+mIkXlMrXSooJtwNZV1PK4B0Jo/ZDlVBx8ewFBinyxO4sqzd9d8aLh0k+KUpHT83zodoZ48OHa3UI0wXR2ztjYn8ufHwIg/w8S4WEwt7QJ2Bk6ba67yjtHdVrmooe5tVtubyB22dHnhm5UoSuLYAofYiyuSwx34OR+ylKUrVd0mdgkNKnW4wLv1rD4Epe+LepqfQZZAT72gX7qJqSFIc+3GvpM8iZjelijeDleB9ZVZL2C4OD3tzonqYGddYAQyMNMDTSAEMjDTA00gBDIw0wtFGG/3gHCixoH15UAAAAAElFTkSuQmCC" InformativeScreenshot="03339dcf55f1a671ea1b8d46074a99f5.png" Reference="mOJq_cvjNkm-PtnMbjKZKw/1bICn8Q0i0CGBzFwlNpiQQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" />
               </uix:NClick.Target>
