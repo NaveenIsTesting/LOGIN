@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/login" ContentHash="o-iDZMumEUqaZPMc8GX6wQ" DesignTimeRectangle="486, 474, 285, 42" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="25b57b6e-5ff5-4dd5-8aae-23bb78b7b947" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0eIlhyH5Od0eLtZsy0YD_Ng</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="9a81503eac210ef1bc6ebf689f2432e7.png" xmlns="">0jy4Xfeb-RkuoipBPh02yTA</imageRef>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/login" ContentHash="_hKkuE27FUWoTU3hCq5I4A" DesignTimeRectangle="713, 591, 356, 53" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="25b57b6e-5ff5-4dd5-8aae-23bb78b7b947" Reference="mOJq_cvjNkm-PtnMbjKZKw/Xsj086Dz4USUIVpfRgCUoA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="673, 605, 25, 25" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' aaname='      ' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1kEG1BfUnrEGNu7y3V4eGkg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0bY5Twt9dckq-uiMQTb_GAg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="088239777eb1f20c1fa292d7b54022e1.png" xmlns="">0XU5URQrOikKJTZU6DHHBAg</imageRef>
 </TargetAnchorable>

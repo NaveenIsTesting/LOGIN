@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="mzBxEBN13Uq6KMVwLC3Ibw" DesignTimeRectangle="484, 544, 264, 42" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="343c818f-ffa1-49d5-be96-a80d9d8b2583" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0YfDN41TwEEafo5cE2k0oOA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="c1acd7e884f77506ed992bf36a5dcc08.png" xmlns="">0_MrTLVJCQEe9_4Hn8estVQ</imageRef>
+<TargetAnchorable ContentHash="_6u0XiabkkyHVWXHn6QnIQ" DesignTimeRectangle="710, 679, 330, 53" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='' /&gt;" Guid="343c818f-ffa1-49d5-be96-a80d9d8b2583" Reference="mOJq_cvjNkm-PtnMbjKZKw/5N9Gm3lXBk6ufapHImWmRA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="673, 691, 23, 29" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;svg' idx='2' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='      ' tag='svg' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">56fvKMW27xkuoYAs5y_EAGg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">04p-t5_FOxkag2zO_fujjqw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1f6547468e8025f91bbe9f24286798ee.png" xmlns="">00_0noX6GCUWHIEmTpfhtvw</imageRef>
 </TargetAnchorable>

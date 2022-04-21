@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="ij6ggleRXk2eCxAB26M66g" DesignTimeRectangle="785, 137, 24, 24" FriendlyName="'add'" FullSelectorArgument="&lt;webctrl idx='3' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' aaname='add' check:text='add' /&gt;" Guid="96db3ff8-945b-4ed1-9d2b-c84a49310fb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0nbIkkSouQ0iId47iW2czLA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="4fc6df1d34966f1972b96cbd6caddec8.png" xmlns="">0Xvzhq1eOM0KOi1BWnlkwDw</imageRef>
-</TargetAnchorable>

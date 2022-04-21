@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="0TUmoREiXEinwC35PKWjlA" DesignTimeRectangle="724, 141, 34, 17" ElementType="Text" FriendlyName="'DEAL'" FullSelectorArgument="&lt;webctrl aaname='DEAL' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='DEAL' parentid='page-container' tag='DIV' type='' check:text='DEAL' /&gt;" Guid="18bec1b1-3aaa-4a6b-a9b5-76ca3c1dc8b6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0lcVlNj4xMEK1d3I7R5iqhg</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="28eb60f5009e1aa9b07a8ad88580e0c3.png" xmlns="">09S6Xpz_MBEiTqPkizV8JcA</imageRef>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/dashboard" ContentHash="T8all6yA-Uu7Nxe-PmaLZw" DesignTimeRectangle="1081, 107, 91, 43" FriendlyName="'addDEAL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='13' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='page-container' tag='DIV' check:text='addDEAL' /&gt;" Guid="33f30514-094a-4fef-a438-f22dde63b27d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1187, 107, 127, 43" FriendlyName="'addCONTACT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='page-container' tag='DIV' check:text='addCONTACT' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1ktKCf1piKEmdvIxG6QUlfg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0e1UtsbUZf0yiZv_3xU6O9Q</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9313a1cbfe5ebe1d01d1f70c75d61127.png" xmlns="">0ybiD75vX70CAIVbR08SC7w</imageRef>
 </TargetAnchorable>
