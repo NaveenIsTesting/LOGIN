@@ -1,0 +1,13 @@
+﻿{
+  "Id": "C4alTo4_D0WcMdHPPmnPVg",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/C4alTo4_D0WcMdHPPmnPVg",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/BQhZX6QIrESUeKnthd8JXA",
+  "Name": "Applicant_logout_dropdrown",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T03:46:19.5374964Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T03:46:19.5374964Z"
+}

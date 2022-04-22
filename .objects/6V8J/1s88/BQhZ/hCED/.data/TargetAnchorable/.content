@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/dashboard" ContentHash="71CBEqWRrkGbA2mwRKBrSQ" DesignTimeRectangle="1130, 135, 192, 48" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' parentid='body' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' parentid='body' tag='DIV' type='' check:text='Logout' /&gt;" Guid="6b95f35a-dba7-4ee1-a376-4a9df14d25e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1130, 87, 192, 48" ElementType="Text" FriendlyName="'Settings'" FullSelectorArgument="&lt;webctrl aaname='Settings' parentid='body' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Settings' parentid='body' tag='DIV' type='' check:text='Settings' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1d-x-CAUeo0y6KLzuuzs9RQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0oQv3RGZb4Eu0vjtT6ZRsTg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="3ab0bc192efd2d6bc875c1d9b0e95e3a.png" xmlns="">07UP7oJCokEiKDTmAV73fiQ</imageRef>
+</TargetAnchorable>

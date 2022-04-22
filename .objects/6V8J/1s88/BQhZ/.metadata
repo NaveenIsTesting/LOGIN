@@ -1,0 +1,15 @@
+﻿{
+  "Id": "BQhZX6QIrESUeKnthd8JXA",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/BQhZX6QIrESUeKnthd8JXA",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/1s8855Z8uUCdKeyycslkdw",
+  "Name": "Applicant_Logout_screen",
+  "Type": "Screen",
+  "Created": "2022-04-22T03:45:08.6839434Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T03:45:39.9571519Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

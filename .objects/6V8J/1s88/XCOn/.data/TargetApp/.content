@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="Ll7mjoBCu0CeFFzbLKYrfQ" Reference="mOJq_cvjNkm-PtnMbjKZKw/XCOngDYkk0GS-BZb9bSSaQ" Selector="&lt;html app='chrome.exe' title='Boss' /&gt;" Url="https://devboss5.mortgageboss.ca/#/main/dashboard" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="IconBase64" xmlns="">0UsifwXmBLUy7R6od7ZJR5w</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="635f1178d1ca678d733dee02e8e15b0d.png" xmlns="">0ANGdq6NffkShpZTyUdHNmw</imageRef>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="I4LpEniEiUeuzDHtuHV5mg" Selector="&lt;html app='chrome.exe' title='Boss'/&gt;" Url="https://devboss5.mortgageboss.ca/#/main/dashboard" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">01emFacVSwU20GTAJAT5nDw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8e21d9b36d56b4071bdaf68c3bbc8d53.png" xmlns="">0s-r8cMFkyEi1H8SAfZZKNA</imageRef>
 </TargetApp>

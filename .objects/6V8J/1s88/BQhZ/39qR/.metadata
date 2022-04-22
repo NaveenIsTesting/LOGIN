@@ -1,0 +1,16 @@
+﻿{
+  "Id": "39qR0XI_G0a4d1K9ziuP8Q",
+  "Reference": "mOJq_cvjNkm-PtnMbjKZKw/39qR0XI_G0a4d1K9ziuP8Q",
+  "ParentRef": "mOJq_cvjNkm-PtnMbjKZKw/BQhZX6QIrESUeKnthd8JXA",
+  "Name": "Application_close",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-22T03:47:39.4442796Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T03:49:02.3969481Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
